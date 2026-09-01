@@ -1,34 +1,25 @@
 {
-  "name": "final_project_node",
+  "name": "blog-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js & Express Blog API with Auth, Users CRUD, Blog Relations & Joi Validation (MVC)",
   "main": "server.js",
   "scripts": {
-     "start": "node server.js",
-     "dev": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Amira-Mohamed-Amin/Final_Project_Node.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/Amira-Mohamed-Amin/Final_Project_Node/issues"
-  },
-  "homepage": "https://github.com/Amira-Mohamed-Amin/Final_Project_Node#readme",
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "express-rate-limit": "^8.7.0",
-    "joi": "^18.2.5",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.9.4"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.4"
   }
 }
